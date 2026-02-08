@@ -133,7 +133,7 @@
         figure
           img(src="@/assets/curso/tema3/5.svg", data-aos="zoom-in")
       .col-lg-8
-        .bg-color-6.p-1.mb-5(data-aos="fade-left").p-3
+        .bg-color-16.p-1.mb-5(data-aos="fade-left").p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/6.svg", style="max-width: 90px").mx-auto
