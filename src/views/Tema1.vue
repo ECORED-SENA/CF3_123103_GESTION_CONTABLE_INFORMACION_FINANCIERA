@@ -1289,7 +1289,7 @@
         figure
           img(src="@/assets/curso/tema1/63.png", data-aos="zoom-in")
       .col-lg-7
-        .bg-color-12.p-4.h-100(data-aos="fade-left")
+        .bg-color-white.p-4.h-100(data-aos="fade-left")
           h5.mb-5 Títulos emitidos por entidades públicas: 
           p 4.1.	Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión.
           p 4.2.	Copia de la justificación técnica, económica y social de la emisión, su plan de financiación por fuentes de recursos y el cronograma de gastos anuales en moneda local y extranjera. 

@@ -36,7 +36,7 @@
             p(data-aos="fade-left").mb-5 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
         
             .bg-color-26.p-4.tarjeta(data-aos="fade-left")
-              p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando a los siguientes enlaces:
+              p .Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando a los siguientes enlaces:
 
               .row
                 .col-lg-6
@@ -79,7 +79,7 @@
         
         .row.justify-content-center
           .col-lg-10
-            div.bg-color-6.tarjeta.p-5
+            div.bg-color-23.tarjeta.p-5
               .row.justify-content-center
                 .col-lg-4.order-2.order-lg-1
                   figure
@@ -118,7 +118,7 @@
           .col-lg-9
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-26.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
@@ -128,7 +128,7 @@
                       .d-lg-none
                         h5.mb-2.text-center Archivo de gestión
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-26.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
@@ -138,7 +138,7 @@
                       .d-lg-none
                         h5.mb-2.text-center Archivo central
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-26.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
