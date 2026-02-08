@@ -17,39 +17,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Documentos contables y no contables',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con los documentos contables, no contables y títulos valores, así como su clasificación, características, normatividad aplicable y correcta gestión documental en entornos empresariales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál de los siguientes documentos es considerado contable?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Factura cambiaria de compra y venta.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Comprobante de egreso.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Cotización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Remisión.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +58,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál es la finalidad principal de los documentos no contables?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Brindar información previa a la transacción.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Registrar el pago de impuestos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Soportar la conciliación bancaria.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Realizar el asiento contable.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +88,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Cuál de los siguientes es un título valor?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Comprobante de ingreso.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Letra de cambio.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Factura electrónica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Planilla PILA.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +119,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué documento se utiliza para registrar el pago a empleados?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Documento equivalente.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Nómina.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Remisión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Pagaré.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +149,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál documento registra las operaciones contables día a día?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Libro de actas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Libro diario.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Libro de inventarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Libro de balances.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +181,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué característica es propia de la factura electrónica según el Decreto 2242?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Debe entregarse únicamente en papel.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'No requiere numeración consecutiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Incluye un código único alfanumérico.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo la pueden emitir personas naturales.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +212,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es un requisito del pagaré según el Código de Comercio?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Debe ser pagado en efectivo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Promesa incondicional de pagar una suma determinada.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Tener firma del beneficiario solamente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No necesita indicar la forma de vencimiento.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál es un ejemplo de documento equivalente?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Boleta de ingreso a espectáculos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Factura de venta.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Nota contable.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Extracto bancario.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +273,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué documento sirve para reconocer valores cobrados erróneamente a un cliente?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Nota débito.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Comprobante de contabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Recibo de caja menor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Cheque.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +304,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué tipo de organización documental ordena la información por temas?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Cronológica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Por asuntos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Numérica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Alfabética.',
               esCorrecta: false,
             },
           ],
@@ -316,7 +335,7 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Los libros contables pueden tener espacios en blanco para facilitar ediciones posteriores.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -337,19 +356,19 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'La remisión es un documento contable que genera asiento contable.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -358,7 +377,7 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'Las notas de contabilidad se utilizan para ajustes internos que no tienen soporte externo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -379,19 +398,19 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'El archivo histórico es una etapa del ciclo vital documental.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,19 +419,19 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'El cheque es un título valor que no requiere ser expedido en chequera.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
