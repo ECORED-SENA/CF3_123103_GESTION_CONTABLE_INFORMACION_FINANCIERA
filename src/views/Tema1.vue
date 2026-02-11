@@ -246,7 +246,7 @@
             figure
               img(src="@/assets/curso/tema1/13.png", data-aos="zoom-in")
           .col-lg-7.ps-lg-0
-            .bg-color-23.h-100.p-3
+            .bg-color-1.h-100.p-3
               ol.lista-ol--cuadro
                 li.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
@@ -320,7 +320,7 @@
         figure
           img(src="@/assets/curso/tema1/16.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-10")
           div(titulo=" Obligado a facturar electrónicamente")
             p.mb-0 Persona natural o jurídica comprendida en el ámbito de este Decreto y que como tal debe facturar electrónicamente en las condiciones que se establecen en los artículos siguientes.
           div(titulo="Adquirente")
@@ -493,7 +493,7 @@
         
         .row.justify-content-center
           .col-lg-10
-            .bg-color-1
+            .bg-color-3
               .row.mb-5.justify-content-between.align-items-center
                 .col-lg-3.ps-0.order-2.d-none.d-lg-block
                   figure
