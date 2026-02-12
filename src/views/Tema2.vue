@@ -18,7 +18,7 @@
           .col-lg-5.pe-lg-0
             img(src="@/assets/curso/tema2/1.png").mx-auto
           .col-lg-7.ps-lg-0
-            .bg-color-6.h-100.px-4.py-5(data-aos="fade-left")
+            .bg-color-10.h-100.px-4.py-5(data-aos="fade-left")
               p.mb-0 Con el cierre de año y transcurrido varios periodos de tiempo, esta información permanece como inactiva, pero es imperativa su conservación, teniendo en cuenta que es utilizada como testimonio sobre registros de hechos pasados. En tal sentido, las empresas desarrollan medidas de conservación para asegurar la integridad de los documentos que reposan en el archivo.
     
     separador
@@ -36,7 +36,7 @@
             p(data-aos="fade-left").mb-5 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
         
             .bg-color-26.p-4.tarjeta(data-aos="fade-left")
-              p .Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando a los siguientes enlaces:
+              p.ajuste___color Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando a los siguientes enlaces:
 
               .row
                 .col-lg-6
@@ -79,7 +79,7 @@
         
         .row.justify-content-center
           .col-lg-10
-            div.bg-color-23.tarjeta.p-5
+            div.bg-color-26-1.tarjeta.p-5
               .row.justify-content-center
                 .col-lg-4.order-2.order-lg-1
                   figure
@@ -124,7 +124,7 @@
                       img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       .d-none.d-lg-block
-                        h5.mb-2 Archivo de gestión
+                        h5.ajuste___color.mb-2 Archivo de gestión
                       .d-lg-none
                         h5.mb-2.text-center Archivo de gestión
               .col-lg-4.mb-3.mb-lg-0
@@ -134,7 +134,7 @@
                       img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       .d-none.d-lg-block
-                        h5.mb-2 Archivo central
+                        h5.ajuste___color.mb-2 Archivo central
                       .d-lg-none
                         h5.mb-2.text-center Archivo central
               .col-lg-4.mb-3.mb-lg-0
@@ -144,7 +144,7 @@
                       img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       .d-none.d-lg-block
-                        h5.mb-2 Archivo histórico
+                        h5.ajuste___color.mb-2 Archivo histórico
                       .d-lg-none
                         h5.mb-2.text-center Archivo histórico
 
@@ -195,7 +195,7 @@
             p(data-aos="fade-left") En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
@@ -205,7 +205,7 @@
                       .d-lg-none
                         h5.mb-2.text-center Gerencia
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/14.svg", style="max-width: 90px").mx-auto
@@ -215,7 +215,7 @@
                       .d-lg-none
                         h5.mb-2.text-center Recursos humanos
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/15.svg", style="max-width: 90px").mx-auto
@@ -226,7 +226,7 @@
                         h5.mb-2.text-center Contabilidad
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
@@ -236,7 +236,7 @@
                       .d-lg-none
                         h5.mb-2.text-center Almacén
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+                .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/17.svg", style="max-width: 90px").mx-auto

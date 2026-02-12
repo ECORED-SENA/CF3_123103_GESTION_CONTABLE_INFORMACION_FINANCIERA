@@ -7,7 +7,7 @@
         span 1
       h1 Documentos
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
@@ -190,7 +190,7 @@
 
     .row.mb-5
       .col-lg-8
-        TabsA.color-acento-botones.mb-5
+        TabsA.color-acento-contenido.mb-5
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
@@ -246,7 +246,7 @@
             figure
               img(src="@/assets/curso/tema1/13.png", data-aos="zoom-in")
           .col-lg-7.ps-lg-0
-            .bg-color-1.h-100.p-3
+            .bg-color-1-1.h-100.p-3
               ol.lista-ol--cuadro
                 li.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
@@ -295,7 +295,7 @@
           .col-lg-7.order-1.mb-3.mb-lg-0
             p(data-aos="fade-left") Al momento de la expedición de la factura, los requisitos de los literales a), b), d) y h), deberán estar previamente impresos a través de medios litográficos, tipográficos o de técnicas industriales de carácter similar. Cuando el contribuyente utilice un sistema de facturación por computador o máquinas registradoras, con la impresión efectuada por tales medios se entienden cumplidos los requisitos de impresión previa. El sistema de facturación deberá numerar en forma consecutiva las facturas y se deberán proveer los medios necesarios para su verificación y auditoría.
         
-            .bg-color-1.p-4(data-aos="fade-left")
+            .bg-color-1-2.p-4(data-aos="fade-left")
               div.bg-color-white.mb-3.p-2
                 p.mb-0 <b>PAR.</b> En el caso de las empresas que venden tiquetes de transporte, no será obligatorio entregar el original de la factura. A efecto, será suficiente entregar copia de la misma.
               div.bg-color-white.p-2
@@ -320,7 +320,7 @@
         figure
           img(src="@/assets/curso/tema1/16.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-10")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           div(titulo=" Obligado a facturar electrónicamente")
             p.mb-0 Persona natural o jurídica comprendida en el ámbito de este Decreto y que como tal debe facturar electrónicamente en las condiciones que se establecen en los artículos siguientes.
           div(titulo="Adquirente")
@@ -372,7 +372,7 @@
         .carousel-bg
           .row.justify-content-center.mb-5.align-items-center
             .col-lg-9.mb-3.mb-lg-0.order-lg-2
-              SlyderF(columnas="col-md-6 col-xl-4")
+              SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   p Comerciantes minoristas, siempre y cuando no excedan los topes de venta. Algunos ejemplos son: los comerciantes de productos del agro sin transformación y cuya cuantía no supere los niveles permitidos.
@@ -399,7 +399,7 @@
           .col-lg-3.mb-3.mb-lg-0.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema1/23.png", data-aos="zoom-in")
-          .col-lg-7.bg-color-6.p-4.tarjeta(data-aos="fade-left")
+          .col-lg-7.bg-color-6-1.p-4.tarjeta(data-aos="fade-left")
               ul.lista-ul--color
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
@@ -435,7 +435,7 @@
                 img.d-none.d-lg-flex(src="@/assets/componentes/2.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 Otro ejemplo de documento equivalente son los expedidos por máquinas registradoras, las boletas de espectáculos públicos y todos los requisitos contemplados en el Artículo 771-2 del Estatuto Tributario (Secretaría del Senado, 2020).
-            .bg-color-26.tarjeta.p-4(data-aos="fade-left")
+            .bg-color-26-1.tarjeta.p-4(data-aos="fade-left")
               p De igual forma, puede observar el ejemplo que se encuentra registrado en la siguiente página web:
               a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.icbf.gov.co/el-instituto/sistema-integrado-de-gestion/formato-documento-equivalente-factura-v3" target="_blank")
                 .anexo__icono
@@ -455,7 +455,7 @@
         figure
           img(src="@/assets/curso/tema1/27.png", data-aos="zoom-in", style="max-width: 400px").mx-auto
       .col-lg-8
-        .bg-color-12.p-4(data-aos="fade-left")
+        .bg-color-12-1.p-4(data-aos="fade-left")
           h5 Características
           p Deben registrarse de forma ordenada y debe expresar de forma clara la transacción registrada, donde relacione:
           .row.justify-content-center
@@ -552,9 +552,9 @@
               .col-lg-4.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in", style="max-width: 295px").mx-auto
-              .col-lg-8.bg-color-3.p-4.tarjeta(data-aos="fade-left")
+              .col-lg-8.bg-color-3-1.p-4.tarjeta(data-aos="fade-left")
                 h5.mb-4 Características
-                p.mb-5 Debe definir la ciudad y el nombre del establecimiento comercial, fecha y plazos de pagos, es decir, el número de cuotas para ser pagadas por él cuentahabiente, si es tarjeta de crédito. Si es cuenta de ahorro, la transacción descuenta de forma automática y por medio de correo electrónico se notifica al cliente; comúnmente, el reporte es enviado al dispositivo móvil del cliente por parte de la entidad financiera.
+                p.ajuste___color.mb-5 Debe definir la ciudad y el nombre del establecimiento comercial, fecha y plazos de pagos, es decir, el número de cuotas para ser pagadas por él cuentahabiente, si es tarjeta de crédito. Si es cuenta de ahorro, la transacción descuenta de forma automática y por medio de correo electrónico se notifica al cliente; comúnmente, el reporte es enviado al dispositivo móvil del cliente por parte de la entidad financiera.
                 a.anexo.bg-color-8(:href="obtenerLink('/downloads/Anexo_2_Documentos_Soportes_Colombia.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
@@ -605,7 +605,7 @@
               img(src="@/assets/curso/tema1/32.svg", data-aos="zoom-in")
           .col-lg-8(data-aos="fade-left").order-1.mb-3.mb-lg-0
             p.mb-5(data-aos="fade-left") Es un soporte en el cual las empresas registran las diferentes novedades de los empleados, frente a salud, pensiones, riesgos laborales, cajas de compensación, se realiza por intermedio de un tercero y se trasfiere a las diferentes empresas de seguridad social, es un documento que brinda la información a empleados y entidades que vigilan el pago de seguridad social.
-            .bg-color-23.p-4.tarjeta
+            .bg-color-23-1.p-4.tarjeta
               h5.mb-4 Características
               p Registra las diferentes novedades por conceptos de variaciones transitorias en los salarios de los empleados como: comisiones, sueldos, incapacidades, las cuales modifican la base para calcular las deducciones en la nómina de las empresas.
           
@@ -720,7 +720,7 @@
           img(src="@/assets/curso/tema1/39.svg", data-aos="zoom-in")
       .col-lg-7(data-aos="fade-left").order-1.mb-3.mb-lg-0
         p Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
-        .bg-color-27.p-4.tarjeta
+        .bg-color-27-1.p-4.tarjeta
           h5.mb-4 Características
           p Posibilita la elaboración de la conciliación bancaria, bajo los métodos comúnmente utilizados. Los componentes de los extractos bancarios son:
           .row
@@ -756,13 +756,13 @@
       .col-lg-5.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/40.png", data-aos="zoom-in", style="max-width: 400px").mx-auto
-      .col-lg-7.bg-color-12.p-4.tarjeta(data-aos="fade-left")
+      .col-lg-7.bg-color-12-2.p-4.tarjeta(data-aos="fade-left")
         h5.mb-4 Características
         p El soporte debe contener el registro emitido por la máquina registradora del banco, el sello y la firma de la persona autorizada en el banco. El documento contiene los siguientes elementos:
        
         .row.justify-content-center.align-items-stretch.mb-2
           .col-lg-6.mb-3.mb-lg-0
-            .bg-color-6.p-1(data-aos="fade-left").h-100.p-3
+            .bg-color-6-2.p-1(data-aos="fade-left").h-100.p-3
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/41.svg", style="max-width: 90px").mx-auto
@@ -772,7 +772,7 @@
                   .d-lg-none
                     h5.mb-2.text-center Ciudad y fecha.
           .col-lg-6.mb-2.mb-lg-0
-            .bg-color-6.p-1(data-aos="fade-left").h-100.p-3
+            .bg-color-6-2.p-1(data-aos="fade-left").h-100.p-3
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/42.svg", style="max-width: 90px").mx-auto
@@ -783,7 +783,7 @@
                     h5.mb-2.text-center Número de la cuenta bancaria.
         .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-6.mb-3.mb-lg-0
-            .bg-color-6.p-1(data-aos="fade-left").h-100.p-3
+            .bg-color-6-2.p-1(data-aos="fade-left").h-100.p-3
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/43.svg", style="max-width: 90px").mx-auto
@@ -793,7 +793,7 @@
                   .d-lg-none
                     h5.mb-2.text-center Valor a consignar en números o letras.
           .col-lg-6.mb-3.mb-lg-0
-            .bg-color-6.p-1(data-aos="fade-left").h-100.p-3
+            .bg-color-6-2.p-1(data-aos="fade-left").h-100.p-3
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/44.svg", style="max-width: 90px").mx-auto
@@ -819,7 +819,7 @@
       .col-lg-5.order-2.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema1/46.png", data-aos="zoom-in")
-      .col-lg-7.bg-color-1.p-4.tarjeta.order-1.mb-3.mb-lg-0(data-aos="fade-left")
+      .col-lg-7.bg-color-1-3.p-4.tarjeta.order-1.mb-3.mb-lg-0(data-aos="fade-left")
         h5.mb-4 Características
         p.mb-4 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
         .row
@@ -994,7 +994,7 @@
             figure
               img(src="@/assets/curso/tema1/52.png", data-aos="zoom-in", style="max-width: 300px").mx-auto.my-4.my-lg-0
           .col-lg-8.order-lg-1
-            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               div(titulo=" Características")
                 p.mb-0 Presentan un consecutivo para vincular con las operaciones comerciales de forma cronológica.
                 ul.lista-ul--color.mb-3.ms-3
@@ -1068,7 +1068,7 @@
         p(data-aos="fade-left") Además de lo dispuesto para cada título-valor en particular, los títulos-valores deberán llenar los requisitos siguientes:
 
         .col-lg-7.mb-3
-          .bg-color-10.h-100.p-3
+          .bg-color-10-2.h-100.p-3
             ol.lista-ol--cuadro
               li.bg-color-white.p-1.d-flex
                 .lista-ol--cuadro__vineta
@@ -1081,7 +1081,7 @@
 
 
         p La firma podrá sustituirse, bajo la responsabilidad del creador del título, por un signo o contraseña que puede ser mecánicamente impuesto.
-        .bg-color-12.p-4.tarjeta.mb-3(data-aos="fade-left")
+        .bg-color-12-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0 Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas.
         p(data-aos="fade-left") Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
     
@@ -1094,7 +1094,7 @@
         figure
           img(src="@/assets/curso/tema1/55.png", data-aos="zoom-in", style="max-width: 300px").mx-auto.my-4.my-lg-0
       .col-lg-8
-        .bg-color-27.tarjeta.p-4.mb-3(data-aos="fade-left")
+        .bg-color-12.tarjeta.p-4.mb-3(data-aos="fade-left")
           p Si en el título se dejan espacios en blanco, cualquier tenedor legítimo podrá llenarlos, conforme a las instrucciones del suscriptor que los haya dejado, antes de presentar el título para el ejercicio del derecho que en él se incorpora.
 
           p.mb-0 Una firma puesta sobre un papel en blanco, entregado por el firmante para convertirlo en un título-valor, dará al tenedor el derecho de llenarlo. Para que el título, una vez completado, pueda hacerse valer contra cualquiera de los que en él han intervenido antes de completarse, deberá ser llenado estrictamente de acuerdo con la autorización dada para ello.
@@ -1114,7 +1114,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.color-primario.p-4.h-100
+        .tarjeta--boton.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
@@ -1127,7 +1127,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.color-primario.p-4.h-100
+        .tarjeta--boton.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
@@ -1140,7 +1140,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.color-primario.p-4.h-100
+        .tarjeta--boton.p-4.h-100
           .row.justify-content-center.mb-3
             .col-4
               figure
@@ -1166,7 +1166,7 @@
         p(data-aos="fade-left") Además de lo dispuesto para cada título-valor en particular, los títulos-valores deberán llenar los requisitos siguientes:
         .row.mb-3
           .col-lg-7
-            .bg-color-10.h-100.p-3
+            .bg-color-10-1.h-100.p-3
               ol.lista-ol--cuadro
                 li.bg-color-white.p-1.d-flex
                   .lista-ol--cuadro__vineta
@@ -1182,7 +1182,7 @@
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center
           .col-lg-10
-            div.bg-color-23.tarjeta
+            div.bg-color-26-1.tarjeta
               .row.mb-5.justify-content-center.p-4
                 .col-lg-5.order-2.d-none.d-lg-block
                   figure
@@ -1234,7 +1234,7 @@
         
         .row.justify-content-center.mb-5
           .col-lg-10
-            div.bg-color-6.tarjeta.p-5
+            div.bg-color-26-1.tarjeta.p-5
               p <b>Características</b> (Secretaría del Senado, 2020. Art.712):
               p El cheque solo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
 
@@ -1268,7 +1268,7 @@
     p.mb-5(data-aos="fade-left") (Secretaría del Senado, 2020): Registra las ventas de mercancías que pueden ser al contado o a plazos.
 
     
-    TabsA.color-acento-botones.mb-5
+    TabsA.color-acento-contenido.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
@@ -1289,7 +1289,7 @@
         figure
           img(src="@/assets/curso/tema1/63.png", data-aos="zoom-in")
       .col-lg-7
-        .bg-color-white.p-4.h-100(data-aos="fade-left")
+        .bg-color-8.p-4.h-100(data-aos="fade-left")
           h5.mb-5 Títulos emitidos por entidades públicas: 
           p 4.1.	Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión.
           p 4.2.	Copia de la justificación técnica, económica y social de la emisión, su plan de financiación por fuentes de recursos y el cronograma de gastos anuales en moneda local y extranjera. 

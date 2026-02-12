@@ -7,7 +7,7 @@
         span 3
       h1 Libros contables
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
@@ -36,7 +36,7 @@
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
       .col-lg-8.order-1.mb-3.mb-lg-0
-        .bg-color-23.h-100.p-4
+        .bg-color-12-2.h-100.p-4
           p <b>Artículo 57:</b> En los libros de comercio se prohíbe:
           ol.lista-ol--cuadro
             li.bg-color-white.p-1
@@ -73,7 +73,7 @@
       .col-lg-9
         p.mb-0 En tema tributarios observemos el Estatuto Tributario (Secretaría del Senado, 2020. Art. 654 y 655):
         p Nos menciona las sanciones relacionadas con la contabilidad y de clausura de establecimiento.
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           div(titulo=" Artículo 654: Habrá lugar a aplicar sanción por libros de contabilidad, en los siguientes casos.")
             ol.lista-ol--cuadro.ms-3
               li.mb-0.p-1.d-flex
@@ -230,7 +230,7 @@
         figure
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           div(titulo="Características")
             ul.lista-ul--color
               li.mb-2.d-flex
@@ -359,7 +359,7 @@
     p.mb-5(data-aos="fade-left") Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.  
 
     .row.mb-5.justify-content-center
-      .col-lg-10.bg-color-12.p-4.tarjeta
+      .col-lg-10.bg-color-6-1.p-4.tarjeta
         .row.align-items-center
           .col-lg-auto
             img(src="@/assets/curso/tema3/15.png", style="max-width: 198px").mx-auto.mb-4.mb-lg-0
@@ -380,7 +380,7 @@
     
     h5 Características:
     p.mb-5 Según Circular 002 de 2016 de la Superintendencia de Industria y Comercio (Cámara de Comercio de Santa Marta, 2020):
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
       div(titulo="2.1.9.2 Respecto de los libros de comercio")
         p Una vez efectuada la inscripción de los libros sometidos a dicha formalidad, el secretario de la Cámara de Comercio insertará una constancia en la primera hoja del libro registrado que contendrá los siguientes datos:
         ul.lista-ul--color.ms-3
@@ -415,7 +415,7 @@
     p.mb-5(data-aos="fade-left") Son los libros que reflejan de forma ordenada las operaciones realizadas por la empresa, afectando los débitos y créditos de una o varias cuentas y subcuentas, con el fin de generar el saldo en una fecha determinada.
 
     .row.mb-5.justify-content-center
-      .col-lg-10.bg-color-8.p-4.tarjeta
+      .col-lg-10.bg-color-6.p-4.tarjeta
         .row.align-items-center
           .col-lg-4.mb-3.mb-lg-0
             img(src="@/assets/curso/tema3/16.png").mx-auto
@@ -450,7 +450,7 @@
 
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+        .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/17.svg", style="max-width: 90px").mx-auto
@@ -460,7 +460,7 @@
               .d-lg-none
                 h5.mb-2.text-center Tablas de retención documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+        .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/18.svg", style="max-width: 90px").mx-auto
@@ -470,7 +470,7 @@
               .d-lg-none
                 h5.mb-2.text-center Programa de gestión documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+        .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/19.svg", style="max-width: 90px").mx-auto
@@ -481,7 +481,7 @@
                 h5.mb-2.text-center Cuadros de clasificación documental
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+        .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/20.svg", style="max-width: 90px").mx-auto
@@ -491,7 +491,7 @@
               .d-lg-none
                 h5.mb-2.text-center Tablas de valoración documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
+        .bg-color-23-2.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/21.svg", style="max-width: 90px").mx-auto
