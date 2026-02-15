@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Los libros de información financiera están conformados por libros auxiliares y principales, su diligenciamiento debe efectuarse de forma cronológica, acorde a la normatividad vigente. Los libros contables están conformados por comprobantes de contabilidad base para la elaboración de estados financieros (Angulo, 2018). En coherencia con el Decreto Ley 19 de 2012 (Secretaría del Senado, 2020), se registran en las Cámaras de comercio los libros de actas de socios y accionistas.
     
-    p Según el Código Comercio (Secretaría del Senado, 2020. Art. 48 al 56):
+    p Según el Código de Comercio (Secretaría del Senado, 2020. Art. 48 al 56):
 
     TabsA.color-acento-botones.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 

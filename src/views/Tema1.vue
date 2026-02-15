@@ -287,7 +287,7 @@
                 li.bg-color-white.p-1.mb-0
                   .lista-ol--cuadro__vineta
                     span j
-                  | Declarado Inexequible Corte Constitucional.
+                  | Declarado inexequible Corte Constitucional.
         .row.mb-5
           .col-lg-5.order-2
             figure
@@ -448,7 +448,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Comprobante de egreso o comprobante de pago
     
-    p.mb-5(data-aos="fade-left") Comúnmente se conoce como orden de pago, soporte que respalda los desembolsos de efectivo, por norma de control interno realizados mediante cheques. Los comprobantes de egreso se elaboran por duplicado, para anexar a la cuenta que respalda la entrega del título valor, que es el cheque con que se efectúa el pago.
+    p.mb-5(data-aos="fade-left") Comúnmente se conoce como orden de pago, soporte que respalda los desembolsos de efectivo, por norma de control interno, realizados mediante cheques. Los comprobantes de egreso se elaboran por duplicado, para anexar a la cuenta que respalda la entrega del título valor, que es el cheque con que se efectúa el pago.
 
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0.d-none.d-lg-block
@@ -546,7 +546,7 @@
               img(src="@/assets/curso/tema1/30.png", data-aos="zoom-in", style="max-width: 295px").mx-auto
 
           .col-lg-9.order-1.mb-3.mb-lg-0
-            p(data-aos="fade-left") Es un medio de pago convencional, donde se utiliza la figura de tarjetahabiente, utilizando un datáfono para recibir pagos. Es una forma segura para no manejar efectivo; el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico. Cuando se realiza la transacción, se debe guardar copia de la transacción, y anexar a la venta, como soporte.
+            p(data-aos="fade-left") Es un medio de pago convencional, donde se utiliza la figura de tarjetahabiente, utilizando un datáfono para recibir pagos. Es una forma segura para no manejar efectivo; el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico. Cuando se realiza la transacción, se debe guardar copia de la transacción y anexar a la venta como soporte.
         
             .row.mb-5.justify-content-center
               .col-lg-4.mb-3.mb-lg-0
@@ -604,7 +604,7 @@
             figure
               img(src="@/assets/curso/tema1/32.svg", data-aos="zoom-in")
           .col-lg-8(data-aos="fade-left").order-1.mb-3.mb-lg-0
-            p.mb-5(data-aos="fade-left") Es un soporte en el cual las empresas registran las diferentes novedades de los empleados, frente a salud, pensiones, riesgos laborales, cajas de compensación, se realiza por intermedio de un tercero y se trasfiere a las diferentes empresas de seguridad social, es un documento que brinda la información a empleados y entidades que vigilan el pago de seguridad social.
+            p.mb-5(data-aos="fade-left") Es un soporte en el cual las empresas registran las diferentes novedades de los empleados, frente a salud, pensiones, riesgos laborales, cajas de compensación; se realiza por intermedio de un tercero y se trasfiere a las diferentes empresas de seguridad social, es un documento que brinda la información a empleados y entidades que vigilan el pago de seguridad social.
             .bg-color-23-1.p-4.tarjeta
               h5.mb-4 Características
               p Registra las diferentes novedades por conceptos de variaciones transitorias en los salarios de los empleados como: comisiones, sueldos, incapacidades, las cuales modifican la base para calcular las deducciones en la nómina de las empresas.
@@ -852,7 +852,7 @@
         h3.titulo-con-imagen__texto Notas débito y crédito
     
     TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="Nota debito")
+      .py-3.py-md-4(titulo="Nota débito")
         .row
           .col-lg-6.mb-4.mb-md-0
             h4 Nota debito
@@ -883,7 +883,7 @@
         .row
           .col-lg-6.mb-4.mb-md-0
             h4 Nota crédito
-            p Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
+            p Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas; es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
             p Características
             ul.lista-ul--color.mb-3.ms-3
               li.d-flex
@@ -987,7 +987,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Comprobantes de contabilidad
     
-        p.mb-5(data-aos="fade-left") Representa la base en la elaboración de estados financieros, como resultado debe presentar sumas iguales en los débitos y créditos de una transacción comercial.
+        p.mb-5(data-aos="fade-left") Representa la base en la elaboración de estados financieros; como resultado, debe presentar sumas iguales en los débitos y créditos de una transacción comercial.
 
         .row.mb-5
           .col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -1056,7 +1056,7 @@
       .col-lg-8.order-lg-1
         .bloque-texto-c.bg-color-8.p-4
           i.fas.fa-quote-right
-          h2.mb-2 Documentos necesarios para legitimar el ejercicio del derecho literal y autónomo que en ellos se incorpora. Pueden ser de contenido crediticio, corporativos o de participación y de tradición o representativos de mercancías..
+          h2.mb-2 Documentos necesarios para legitimar el ejercicio del derecho literal y autónomo que en ellos se incorpora. Pueden ser de contenido crediticio, corporativos o de participación y de tradición o representativos de mercancías.
           span - (Secretaría del Senado, 2020. Art. 619)
     
     .row.mb-5
@@ -1107,7 +1107,7 @@
         
     h3.bg-color-4.tarjeta.p-3.mb-5 Clases
 
-    p.mb-5(data-aos="fade-left") Según el Código del Comercio, se encuentran títulos: nominativos, a la orden y al portador.
+    p.mb-5(data-aos="fade-left") Según el Código de Comercio, se encuentran títulos: nominativos, a la orden y al portador.
 
     .row.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -1154,7 +1154,7 @@
 
     h3.bg-color-4.tarjeta.p-3.mb-5 Letra de cambio
 
-    p.mb-5(data-aos="fade-left") Es un documento de carácter crediticio, con la representación de las figuras como son: girador y librador que pactan un valor, para ser entregado en una fecha determinada.
+    p.mb-5(data-aos="fade-left") Es un documento de carácter crediticio, con la representación de las figuras como son: girador y librador; que pactan un valor para ser entregado en una fecha determinada.
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
