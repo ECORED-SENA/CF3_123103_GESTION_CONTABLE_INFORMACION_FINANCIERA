@@ -855,7 +855,7 @@
       .py-3.py-md-4(titulo="Nota débito")
         .row
           .col-lg-6.mb-4.mb-md-0
-            h4 Nota debito
+            h4 Nota débito
             p Es un documento contable que reconoce valores de la empresa a favor de sus clientes, debido a errores u omisiones. Por ejemplo: intereses cobrados de forma adicional sobre facturas de compra y venta o notas débito que disminuyen el saldo de la cuenta bancaria de la empresa.
             p Características
             p Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
