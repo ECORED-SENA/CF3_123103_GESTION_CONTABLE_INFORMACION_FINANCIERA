@@ -63,7 +63,7 @@
                   p.mb-0 Planilla integrada de liquidación de aportes.
                 li.mb-0.d-flex
                   i.fas.fa-chevron-right.bg-color-17
-                  p.mb-0 Declaración de renta, Impuesto al Valor Agregado (IVA), Retención en la Fuente, Impuesto de Industria y Comercio ICA.
+                  p.mb-0 Declaración de renta, Impuesto al Valor Agregado (IVA), Retención en la Fuente, Impuesto de Industria y Comercio (ICA).
         .row.mb-5
           .col-lg-5.mb-3.mb-lg-0
             figure
@@ -217,7 +217,7 @@
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p #[b Anexo 1] - Estudio Régimen Legal Colombiano
-            a.anexo.mb-4.mb-lg-0.bg-color-8(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr020.html" target="_blank")
+            a.anexo.mb-4.mb-lg-0.bg-color-8(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr019.html" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -437,7 +437,7 @@
                 p.mb-0 Otro ejemplo de documento equivalente son los expedidos por máquinas registradoras, las boletas de espectáculos públicos y todos los requisitos contemplados en el Artículo 771-2 del Estatuto Tributario (Secretaría del Senado, 2020).
             .bg-color-26-1.tarjeta.p-4(data-aos="fade-left")
               p De igual forma, puede observar el ejemplo que se encuentra registrado en la siguiente página web:
-              a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.icbf.gov.co/el-instituto/sistema-integrado-de-gestion/formato-documento-equivalente-factura-v3" target="_blank")
+              a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://es.scribd.com/document/485408199/DOCUMENTO-EQUIVALENTE-FACTURA" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -573,7 +573,7 @@
               img(src="@/assets/curso/tema1/31.png", data-aos="zoom-in")
           .col-lg-8.bg-color-6.p-4.tarjeta(data-aos="fade-left")
             h5.mb-4 Características
-            ul.lista-ul--color.mb-5
+            ul.lista-ul--color.mb-3
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Presenta columnas que representan nombres, apellidos y documento de identidad.
@@ -586,7 +586,7 @@
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Presenta nombre de la empresa, NIT de la empresa, dirección y periodo de pago.
-        
+            p.mb-3 Para mayor profundización en el tema, lo invitamos a consultar a través del siguiente enlace web:        
             a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.gerencie.com/formato-en-excel-para-liquidar-la-nomina.html" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
@@ -608,7 +608,7 @@
             .bg-color-23-1.p-4.tarjeta
               h5.mb-4 Características
               p Registra las diferentes novedades por conceptos de variaciones transitorias en los salarios de los empleados como: comisiones, sueldos, incapacidades, las cuales modifican la base para calcular las deducciones en la nómina de las empresas.
-          
+              p.mb-3 Para mayor profundización en el tema se sugiere revisar el siguiente enlace web:          
               a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.minsalud.gov.co/sites/rid/paginas/freesearchresults.aspx?k=&k=ugpp" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
@@ -634,7 +634,7 @@
             figure
               img(src="@/assets/curso/tema1/34.svg", data-aos="zoom-in")
           .col-lg-8.mb-3.mb-lg-0
-            ul.lista-ul--color.mb-5
+            ul.lista-ul--color
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Impuesto al Valor Agregado (IVA).
@@ -647,7 +647,7 @@
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Impuesto de Industria y Comercio.
-        
+            p.mb-3 Para mayor profundización en el tema se sugiere revisar el siguiente enlace web:
             a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.dian.gov.co/atencionciudadano/formulariosinstructivos/Paginas/default.aspx" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
@@ -781,7 +781,7 @@
                     h5.mb-2 Número de la cuenta bancaria.
                   .d-lg-none
                     h5.mb-2.text-center Número de la cuenta bancaria.
-        .row.justify-content-center.align-items-stretch.mb-5
+        .row.justify-content-center.align-items-stretch.mb-3
           .col-lg-6.mb-3.mb-lg-0
             .bg-color-6-2.p-1(data-aos="fade-left").h-100.p-3
               .row.align-items-center
@@ -802,6 +802,7 @@
                     h5.mb-2 Nombre de quien consigna y un número telefónico.
                   .d-lg-none
                     h5.mb-2.text-center Nombre de quien consigna y un número telefónico.
+        p Para mayor profundización en el tema se sugiere revisar el siguiente enlace web:
         a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://marthajimenezmartinez.blogspot.com/2011/10/consignacion.html" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -1183,14 +1184,14 @@
         .row.justify-content-center
           .col-lg-10
             div.bg-color-26-1.tarjeta
-              .row.mb-5.justify-content-center.p-4
+              .row.mb-5.justify-content-center.align-items-center.p-4
                 .col-lg-5.order-2.d-none.d-lg-block
                   figure
                     img(src="@/assets/curso/tema1/60.png", data-aos="zoom-in")
                 .col-lg-7(data-aos="fade-left").order-1.mb-3.mb-lg-0
                   p Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas.
-                  p.mb-5 Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
-              
+                  p Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
+                  p Para mayor profundización en el tema se sugiere revisar el siguiente enlace web:
                   a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://marthajimenezmartinez.blogspot.com/2011/10/letra-de-cambio.html" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -1301,7 +1302,7 @@
           img(src="@/assets/curso/tema1/64.png", data-aos="zoom-in")
       .col-lg-6.order-lg-1
         h5.mb-5 Características:
-        p Art. 1.1.1.10. Res. 470 del 16 de junio de 2005 (Legis, 2020. Art. 1). Inscripción automática de títulos emitidos por Fondos Comunes Especiales, administrados por sociedades fiduciarias, que cumplan con la normatividad aplicable a los fondos de capital privado de que trata esta resolución. Se entenderán inscritos en el Registro Nacional de Valores e Intermediarios para todos los efectos legales y autorizada la oferta pública, los títulos que emitan los fondos comunes especiales administrados por sociedades fiduciarias, cuando medie solicitud expresa del administrador y el reglamento autorizado por la Superintendencia Bancaria cumpla con los requisitos esenciales previstos en la presente resolución para los fondos de capital privado.
+        p Art. 1.1.1.10. Res. 470 del 16 de junio de 2005 (Legis, 2020. Art. 1). Inscripción automática de títulos emitidos por fondos comunes especiales, administrados por sociedades fiduciarias, que cumplan con la normatividad aplicable a los fondos de capital privado de que trata esta resolución. Se entenderán inscritos en el Registro Nacional de Valores e Intermediarios para todos los efectos legales y autorizada la oferta pública, los títulos que emitan los fondos comunes especiales administrados por sociedades fiduciarias, cuando medie solicitud expresa del administrador y el reglamento autorizado por la Superintendencia Bancaria cumpla con los requisitos esenciales previstos en la presente resolución para los fondos de capital privado.
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
@@ -1445,6 +1446,7 @@
                 li.mb-0.d-flex
                   i.fas.fa-chevron-right.bg-color-17
                   p.mb-0 Transportador.
+              p Para mayor profundización en el tema se sugiere revisar el siguiente enlace web:
               a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://marthajimenezmartinez.blogspot.com/2011/10/pedido.html" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
